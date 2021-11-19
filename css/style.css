@@ -1,0 +1,98 @@
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  box-shadow: 5px -2px 5px 8px rgba(10, 10, 10, 0.1);
+
+  background-color: rgb(248, 248, 240);
+
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: flex-end;
+}
+.section {
+  margin-bottom: 50px;
+}
+.foto {
+  display: block;
+  max-width: 100%;
+}
+.title {
+  margin-bottom: 15px;
+}
+.left-side {
+  padding-top: 30px;
+
+  background-color: rgb(58, 57, 57);
+  color: rgb(248, 248, 240);
+  max-width: 350px;
+}
+.left-side__info {
+  padding: 30px;
+}
+.contact__list {
+  list-style: none;
+}
+.contact-link {
+  color: rgb(248, 248, 240);
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: gray;
+}
+.contact-link__icon {
+  display: inline-block;
+  align-items: center;
+  justify-content: baseline;
+  margin-right: 10px;
+  fill: rgb(248, 248, 240);
+}
+
+.right-side {
+  padding: 30px;
+  margin-left: 30px;
+  width: 100%;
+  color: rgb(58, 57, 57);
+}
+
+.date-description {
+  color: rgb(58, 57, 57, 0.5);
+}
+.main-section {
+  margin-top: 50px;
+
+  text-align: right;
+}
+.projects-section {
+  margin-top: 70px;
+}
+.projects-list {
+  margin-top: 10px;
+}
+.projects-item:not(:last-child),
+.experience-item:not(:last-child),
+.education-item:not(:last-child),
+.languages-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+.projects-link {
+  font-weight: bold;
+  color: rgb(58, 57, 57);
+}
+.projects-link:hover,
+.projects-link:focus {
+  color: rgb(58, 57, 57, 0.5);
+}
